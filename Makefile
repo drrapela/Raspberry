@@ -1,5 +1,5 @@
 CC=g++
-CCFLAGS=-Wall -Ofast -mfpu=vfp -lpthread -g -D__Raspberry_Pi -mfloat-abi=hard -march=armv6zk -mtune=arm1176jzf-s
+CCFLAGS=-Wall -Ofast -mfpu=vfp -lpthread -g -D__Raspberry_Pi -mfloat-abi=hard -march=armv7-a -mtune=arm1176jzf-s
 
 # define all programs
 PROGRAMS = MyGateway MySensor MyMessage PiEEPROM
